@@ -1,3 +1,15 @@
+// ----------------------------------------------------------------------------
+// File       : main.c
+//
+// Author     : Jesse Rheal
+//
+// Description: This is a program is an example of a cellular automaton.
+//				There is a grid of cells. The Cells are either alive or dead.
+// 				Each cell counts its alive neighbors to deterimine its state.
+//				If a cell is alive and has 2 or 3 alive neighbors, it lives on.
+//				If a cell is dead and has 3 alive neighbors, it becomes alive.
+// ----------------------------------------------------------------------------
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL.h>
