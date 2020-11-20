@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build",
+			"command": "C:\\MinGW\\bin\\gcc.exe",
+			"args": [
+				"-g", "${file}",
+				"-o", "${fileDirname}\\Conway's Game of Life.exe",
+				"-I", "${fileDirname}\\deps\\include\\SDL2",
+				"-L", "${fileDirname}\\deps\\lib",
+				"-lmingw32",
+				"-lSDL2main",
+				"-lSDL2",
+			],
+			"options": {
+				"cwd": "C:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"isDefault": true,
+				"kind": "build",
+			},
+			"detail": "compiler: C:\\MinGW\\bin\\gcc.exe"
+		}
+	]
+}
